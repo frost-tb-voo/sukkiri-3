@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - Training04_04",
+        "request": "launch",
+        "mainClass": "sukkiri_3.ch4.Training04_04",
+        "projectName": "sukkiri-3"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - Training04",
+        "request": "launch",
+        "mainClass": "sukkiri_3.ch4.Training04",
+        "projectName": "sukkiri-3"
+      },
+      {
+        "type": "java",
+        "name": "Debug (Launch) - Current File",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "console": "internalConsole",
+        "stopOnEntry": false,
+        "mainClass": "entry.mainApp",
+        "args": "--hoge-arg tititata",
+        "env": {
+          "ENV1": "hogehoge",
+          "ENV2": "foobar"
+        }
+      }
+    ]
+}
