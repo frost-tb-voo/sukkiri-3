@@ -1,10 +1,12 @@
 {
     "workbench.colorTheme": "Solarized Light",
     "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib",
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
     },
     "java.home": "/usr/local/openjdk-8",
     "java.execute.workspaceCommand": "/usr/local/openjdk-8",
+    "java.format.enabled": true,
+    "java.format.onType.enabled": true,
     "editor.formatOnSave": true,
 }

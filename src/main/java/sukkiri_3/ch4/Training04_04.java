@@ -1,5 +1,7 @@
 package sukkiri_3.ch4;
 
+import java.util.Scanner;
+
 /**
  * Hello world!
  *
@@ -12,10 +14,12 @@ public class Training04_04 {
     public void main(java.io.InputStream in) {
         int[] numbers = { 3, 4, 9 };
         System.out.println("１桁の数字を入力してください");
-        int input = new java.util.Scanner(in).nextInt();
-        for (int number : numbers) {
-            if (input == number) {
-                System.out.println("アタリ！");
+        try (Scanner scanner = new java.util.Scanner(in)) {
+            int input = scanner.nextInt();
+            for (int number : numbers) {
+                if (input == number) {
+                    System.out.println("アタリ！");
+                }
             }
         }
     }
