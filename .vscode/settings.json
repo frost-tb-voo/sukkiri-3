@@ -9,4 +9,11 @@
     "java.format.enabled": true,
     "java.format.onType.enabled": true,
     "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    // "editor.fontLigatures": true,
 }
